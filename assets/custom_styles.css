@@ -1,0 +1,16 @@
+/* custom_styles.css */
+
+/* Add the styles for the active NavLink elements */
+.summary-link.active,
+.f1-data-link.active {
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        box-shadow: 0 0 5px rgba(173, 216, 230, 0.5); /* Light blue with alpha */
+    }
+    to {
+        box-shadow: 0 0 20px rgba(173, 216, 230, 0.8); /* Light blue with higher alpha */
+    }
+}

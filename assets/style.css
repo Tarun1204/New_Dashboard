@@ -1,0 +1,293 @@
+body {
+    margin: 0;
+    background-color: white;
+    margin-left: 7px;
+}
+
+.title_image {
+   display: flex;
+   flex-direction: row;
+   margin-top: 6px;
+}
+
+.title {
+   display: flex;
+   flex-direction: row;
+   white-space: pre;
+}
+
+.logo_title {
+   display: flex;
+   flex-direction: row;
+   gap: 5px;
+   /*margin-left: 10px;*/
+   margin-top: 5px;
+   /*flex: 6;*/
+}
+
+
+.title_drop_down_list {
+   display: flex;
+   flex-direction: row;
+   gap: 3px;
+   margin-top: 10px;
+}
+
+.month_drop_down_list {
+   display: flex;
+   flex-direction: row;
+   gap: 3px;
+   margin-top: 10px;
+}
+
+.title_and_drop_down_list {
+   display: flex;
+   flex-wrap: wrap;
+   /*position: fixed;*/
+   justify-content: center;
+   gap: 20px;
+   top: 0;
+   background-color: white;
+   width: 100%;
+   margin-bottom: -35px;
+}
+
+.format_text {
+   display: flex;
+   flex-direction: row;
+   color: black;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+   font-family: Calibri;
+}
+
+.card_container {
+  border-radius: 5px;
+  background-color: #1f2c56;
+  margin: 24px;
+  padding: 5px;
+  position: relative;
+  box-shadow: 2px 2px 2px #1f2c56;
+}
+
+.create_container {
+  border-radius: 5px;
+  background-color: #1f2c56;
+  margin: 18px;
+  padding: 5px;
+  position: relative;
+  box-shadow: 2px 2px 2px #1f2c56;
+}
+
+.flex-display {
+  display: flex;
+}
+
+.container-display {
+  display: flex;
+}
+
+#header {
+  align-items: center;
+}
+
+
+#refresh-data {
+  text-align: center;
+  height: 100%;
+  padding: 0 20px;
+  text-transform: none;
+  font-size: 20px;
+  float: right;
+  margin-right: 10px;
+  margin-top: 30px;
+}
+
+.dcc_compon {
+  margin: 0;
+  padding: 5px;
+  width: calc(100%-40px);
+}
+
+.fix_label {
+font-size: 20px;
+  margin: 0;
+  padding: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  width: calc(100%-40px);
+}
+
+
+.drop_down_list_title {
+   display: flex;
+   flex-direction: row;
+   margin-top: 18px;
+}
+
+.drop_down_list {
+   display: flex;
+   flex-direction: row;
+   width: 190px;
+   margin-top: 10px;
+}
+
+.drop_down_month_title {
+   display: flex;
+   flex-direction: row;
+   margin-top: 18px;
+}
+
+.drop_down_month {
+   display: flex;
+   flex-direction: row;
+   width: 190px;
+   margin-top: 10px;
+}
+
+.drop_down_stage{
+   display: flex;
+   flex-direction: row;
+   width: 210px;
+   margin-top: 10px;
+}
+
+.drop_down_stage1{
+   display: flex;
+   flex-direction: row;
+   width: 130px;
+   margin-top: 10px;
+}
+
+.drop_down_faults {
+   display: flex;
+   flex-direction: row;
+   width: 1022px;
+   margin-top: 10px;
+}
+
+/* Drop down list - background color, text color and border color */
+/* input box */
+.Select-control, .Select-menu-outer, .Select-multi-value-wrapper, .select-up, .is-open .Select-control {
+  background-color: rgb(50, 50, 50);
+  color: white;
+}
+
+.Select-control {
+    background-color: rgb(50, 50, 50);
+}
+
+/* changes the text color of input box */
+.Select-value-label {
+    color: white !important;
+}
+
+.Select--single > .Select-control .Select-value, .Select-placeholder {
+    border: 2px solid grey;
+}
+
+/* dropdown menu options */
+.VirtualizedSelectOption {
+    background-color: rgb(50, 50, 50);
+    color: white;
+ }
+
+/* Change color to white for .nav-link elements */
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+/*.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: #dee2e6;
+}*/
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{
+    color: #0dcaf0;
+}
+
+/* Blue color for the active NavLink elements */
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #0dcaf0; /* Light blue */
+}
+
+
+/* width of drop down list and page scrollbar */
+::-webkit-scrollbar {
+  width: 10px !important;
+
+}
+
+/* background color of drop down list and page scrollbar */
+::-webkit-scrollbar-track {
+  background-color: rgb(50, 50, 50) !important;	
+  display: block !important;
+}
+
+/* background color of drop down list and page scrollbar (handle) */
+::-webkit-scrollbar-thumb {
+   background-color: rgb(50, 50, 50);
+
+}
+
+/* background color of drop down list and page scrollbar (handle on hover) */
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(50, 50, 50) !important;
+}
+
+/* dropdown menu hover effect */
+.VirtualizedSelectFocusedOption {
+    background-color:  rgb(50, 50, 50);
+    opacity: .7;
+}
+
+
+/* border on focus - default is blue
+ * shadow box around input box.  default is blue
+ */
+.is-focused:not(.is-open) > .Select-control {
+  border-color: var(--primary); 
+  box-shadow: none;
+}
+
+
+/* this colors the input box text and x  of multi dropdown*/
+.Select--multi .Select-value {
+  color: white;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px !important;
+  display: block !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1f2c56 !important;
+  border-radius: 10px !important;
+  display: block !important;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #192444;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: white !important;
+}
+
+#basic-interactions > div.js-plotly-plot > div > div > svg:nth-child(1) > g.pielayer{
+	cursor:pointer;
+}
+.plotOptions{
+#pie-chart > div.js-plotly-plot > div > div > svg:nth-child(1) > g.pielayer{
+    cursor: pointer;
+}
+}
+
+
+
